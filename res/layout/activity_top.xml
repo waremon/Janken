@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/top1">
+    <LinearLayout
+        android:layout_height="0dip"
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:id="@+id/top1_1"
+        android:layout_weight="15"
+        android:gravity="center">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+	        <ImageView
+	            android:id="@+id/top_back"
+	            android:src="@drawable/top"
+        	    android:layout_width="fill_parent"
+            	android:layout_height="fill_parent"
+            	android:layout_marginTop="30dp">
+        	</ImageView>
+        	<ImageButton 
+            android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:background="#000000"
+			android:id="@+id/sound"
+			android:src="@drawable/soundon"
+			android:soundEffectsEnabled="false" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dip"
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:id="@+id/top1_2"
+        android:layout_weight="5">
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/top1_2_left"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/mydata"
+			android:soundEffectsEnabled="false" />
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/top1_2_center"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/medalcollection"
+			android:soundEffectsEnabled="false" />
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/top1_2_right"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/gamestart"
+			android:soundEffectsEnabled="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dip"
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:id="@+id/adlayout"
+        android:layout_weight="3">
+    </LinearLayout>
+</LinearLayout>

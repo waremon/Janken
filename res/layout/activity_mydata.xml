@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/top1">
+    <LinearLayout
+        android:layout_height="0dip"
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:id="@+id/data1_1"
+        android:layout_weight="1"
+        android:gravity="center">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dip"
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:id="@+id/data1_1"
+        android:layout_weight="14"
+        android:gravity="center">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+        <TableLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent">
+	    	<TableRow
+		        android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:gravity="center">
+        	<TextView
+        	    android:layout_weight="1"
+            	android:gravity="center"
+            	android:text="連勝記録"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+			<TextView
+        	    android:layout_weight="1"
+            	android:id="@+id/textCon"
+            	android:gravity="center"
+            	android:text="--"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+    		</TableRow>
+    		<TableRow
+		        android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:gravity="center">
+        	<TextView
+        	    android:layout_weight="1"
+            	android:gravity="center"
+            	android:text="勝率"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+			<TextView
+        	    android:layout_weight="1"
+            	android:id="@+id/textR"
+            	android:gravity="center"
+            	android:text="--"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+    		</TableRow>
+	    	<TableRow
+		        android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:gravity="center">
+        	<TextView
+        	    android:layout_weight="1"
+            	android:gravity="center"
+            	android:text="合計勝ち数"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+			<TextView
+        	    android:layout_weight="1"
+            	android:id="@+id/textWin"
+            	android:gravity="center"
+            	android:text="--"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+    		</TableRow>
+    		<TableRow
+		        android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:gravity="center">
+        	<TextView
+        	    android:layout_weight="1"
+            	android:gravity="center"
+            	android:text="合計じゃんけん数"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+			<TextView
+        	    android:layout_weight="1"
+            	android:id="@+id/textSum"
+            	android:gravity="center"
+            	android:text="--"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+    		</TableRow>
+    		<TableRow
+		        android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:gravity="center">
+        	<TextView
+        	    android:layout_weight="1"
+            	android:gravity="center"
+            	android:text="グー勝ち数"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+			<TextView
+        	    android:layout_weight="1"
+            	android:id="@+id/textGsum"
+            	android:gravity="center"
+            	android:text="--"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+    		</TableRow>
+    		<TableRow
+		        android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:gravity="center">
+        	<TextView
+        	    android:layout_weight="1"
+            	android:gravity="center"
+            	android:text="グー勝率"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+			<TextView
+        	    android:layout_weight="1"
+            	android:id="@+id/textGR"
+            	android:gravity="center"
+            	android:text="--"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+    		</TableRow>
+    		<TableRow
+		        android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:gravity="center">
+        	<TextView
+        	    android:layout_weight="1"
+            	android:gravity="center"
+            	android:text="チョキ勝ち数"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+			<TextView
+        	    android:layout_weight="1"
+            	android:id="@+id/textCsum"
+            	android:gravity="center"
+            	android:text="--"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+    		</TableRow>
+    		<TableRow
+		        android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:gravity="center">
+        	<TextView
+        	    android:layout_weight="1"
+            	android:gravity="center"
+            	android:text="チョキ勝率"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+			<TextView
+        	    android:layout_weight="1"
+            	android:id="@+id/textCR"
+            	android:gravity="center"
+            	android:text="--"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+    		</TableRow>
+    		<TableRow
+		        android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:gravity="center">
+        	<TextView
+        	    android:layout_weight="1"
+            	android:gravity="center"
+            	android:text="パー勝ち数"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+			<TextView
+        	    android:layout_weight="1"
+            	android:id="@+id/textPsum"
+            	android:gravity="center"
+            	android:text="--"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+    		</TableRow>
+    		<TableRow
+		        android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:gravity="center">
+        	<TextView
+        	    android:layout_weight="1"
+            	android:gravity="center"
+            	android:text="パー勝率"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+			<TextView
+        	    android:layout_weight="1"
+            	android:id="@+id/textPR"
+            	android:gravity="center"
+            	android:text="--"
+            	android:textColor="#FFFFFF"
+            	android:textSize="25sp" />
+    		</TableRow>
+        </TableLayout>
+    </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dip"
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:id="@+id/top1_2"
+        android:layout_weight="5">
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/top1_2_left"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/mydata"
+			android:soundEffectsEnabled="false" />
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/top1_2_center"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/medalcollection"
+			android:soundEffectsEnabled="false" />
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/top1_2_right"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/gamestart"
+			android:soundEffectsEnabled="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dip"
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:id="@+id/adlayout"
+        android:layout_weight="3">
+    </LinearLayout>
+</LinearLayout>

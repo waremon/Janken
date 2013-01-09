@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/top1">
+    <LinearLayout
+        android:layout_height="0dip"
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:id="@+id/coins1_1"
+        android:layout_weight="5"
+        android:gravity="center">
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/coin1"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/blank_coin"
+			android:soundEffectsEnabled="false" />
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/coin2"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/blank_coin"
+			android:soundEffectsEnabled="false" />
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/coin3"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/blank_coin"
+			android:soundEffectsEnabled="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dip"
+        android:background="#00FF00"
+        android:layout_width="fill_parent"
+        android:id="@+id/coins1_2"
+        android:layout_weight="5"
+        android:gravity="center">
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/coin4"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/blank_coin"
+			android:soundEffectsEnabled="false" />
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/coin5"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/blank_coin"
+			android:soundEffectsEnabled="false" />
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/coin6"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/blank_coin"
+			android:soundEffectsEnabled="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dip"
+        android:background="#0000FF"
+        android:layout_width="fill_parent"
+        android:id="@+id/coins1_3"
+        android:layout_weight="5"
+        android:gravity="center">
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/coin7"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/blank_coin"
+			android:soundEffectsEnabled="false" />
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/coin8"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/blank_coin"
+			android:soundEffectsEnabled="false" />
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/coin9"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/blank_coin"
+			android:soundEffectsEnabled="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dip"
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:id="@+id/top1_2"
+        android:layout_weight="5">
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/top1_2_left"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/mydata"
+			android:soundEffectsEnabled="false" />
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/top1_2_center"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/medalcollection"
+			android:soundEffectsEnabled="false" />
+        <ImageButton 
+            android:layout_height="fill_parent"
+			android:layout_width="0dip"
+			android:background="#000000"
+			android:id="@+id/top1_2_right"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:src="@drawable/gamestart"
+			android:soundEffectsEnabled="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dip"
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:id="@+id/adlayout"
+        android:layout_weight="3">
+    </LinearLayout>
+</LinearLayout>
